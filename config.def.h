@@ -5,7 +5,7 @@ static int topbar = 1;                      /* -b  option; if 0, dmenu appears a
 static int fuzzy = 1;                      /* -F  option; if 0, dmenu doesn't use fuzzy matching     */
 /* -fn option overrides fonts[0]; default X11 font or font set */
 static const char *fonts[] = {
-	"Iosevka Fixed:size=13",
+	"monospace:size=13",
 	"Joypixels:size=13"
 };
 static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
